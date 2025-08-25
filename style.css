@@ -1,0 +1,48 @@
+/* CSS Document */
+@charset "utf-8";
+
+@font-face {
+    font-family: "Montserrat-light";
+    src: url(Fuentes/Montserrat-Light.ttf) formart(ttf);
+    font-weight: lighter;
+    font-style: ligthet;
+}
+@font-face {
+    font-family: "Montserrat-normal";
+    src: url(Fuentes/Montserrat-Medium.ttf) formart(ttf)  ;
+    font-weight: normal;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: "Montserrat-bold";
+    src: url(Fuentes/Montserrat-Bold.ttf) formart(ttf);
+    font-weight: bold;
+    font-style: bold;
+}
+
+*{
+  font-family: "Montserrat-normal", sans-serif; 
+  background-color: #fde5dd; 
+}
+
+h1{
+    font-family: "Montserrat-bold", sans-serif;
+    color:  rgb(92, 20, 20);
+    font-size: 60px;
+}
+
+h2, h3{
+    font-family: "Montserrat-bold", sans-serif;
+    color: rgb(92, 20, 20);
+    font-size: 30px
+}
+
+#menu{
+    background-color: #fde5dd;
+}
+
+.facus-gif{
+    margin-right:  30px;
+    rotate: 90DEG;
+}
