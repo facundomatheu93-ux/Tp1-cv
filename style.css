@@ -2,47 +2,136 @@
 @charset "utf-8";
 
 @font-face {
-    font-family: "Montserrat-light";
-    src: url(Fuentes/Montserrat-Light.ttf) formart(ttf);
-    font-weight: lighter;
-    font-style: ligthet;
+    font-family: "outfit-extralight";
+    src: url(Fuentes/Outfit-ExtraLight.ttf);
+    font-weight: light;
+    font-style: light;
 }
+
+
 @font-face {
-    font-family: "Montserrat-normal";
-    src: url(Fuentes/Montserrat-Medium.ttf) formart(ttf)  ;
+    font-family: "outfit-regular";
+    src: url(Fuentes/Outfit-Regular.ttf);
     font-weight: normal;
     font-style: normal;
 }
 
 @font-face {
-    font-family: "Montserrat-bold";
-    src: url(Fuentes/Montserrat-Bold.ttf) formart(ttf);
+    font-family: "outfit-bold";
+    src: url(Fuentes/Outfit-Bold.ttf);
     font-weight: bold;
     font-style: bold;
 }
 
 *{
-  font-family: "Montserrat-normal", sans-serif; 
-  background-color: #fde5dd; 
+  font-family: "outfit-regular", sans-serif; 
+  color: black;
+  background-color: #F7E5C4; 
+  font-size: 14pt;
+  
 }
 
 h1{
-    font-family: "Montserrat-bold", sans-serif;
-    color:  rgb(92, 20, 20);
-    font-size: 60px;
+    font-family: "outfit-bold", sans-serif;
+    color:  #fde5dd;
+    font-size: 65pt;
+    background-color: #873030;
+    opacity: 0.7;
+    padding: 20px 0px 20px 0px;
 }
 
-h2, h3{
-    font-family: "Montserrat-bold", sans-serif;
-    color: rgb(92, 20, 20);
-    font-size: 30px
+h2{
+    font-family: "outfit-bold", sans-serif;
+    color:  #873030;
+    font-size: 46pt;
 }
 
-#menu{
-    background-color: #fde5dd;
+h3{
+    font-family: "outfit-extralight", sans-serif;
+    color:  #873030;
+    font-size: 24pt;
+}
+
+h4{
+    font-family: "outfit-regular", sans-serif;
+    color:  #873030;
+    font-size: 28pt;
 }
 
 .facus-gif{
     margin-right:  30px;
     rotate: 90DEG;
+}
+
+footer{
+    background-color: #873030;
+}
+
+h2,h3 {
+    margin: 0;
+}
+
+ul{
+margin: 2rem;
+}
+
+#inicio, p{
+    font-size: 18pt;
+    text-align: left;
+}
+
+footer ul{
+    list-style: none;
+}
+
+
+footer p{
+    font-size: 10pt;
+    
+}
+
+.trabajos {
+  display: flex;
+  flex-direction: column;
+  gap: 2rem;
+  margin-bottom: 2rem;
+  padding-left: 1.5rem;
+  width: 30%;
+  height: auto;
+}
+
+.tareas {
+ /* flex: 1; */ 
+  padding: 0;
+  margin: 0;
+  border-left: 3px solid #7a1c1c;
+  list-style: none;
+  /*height: auto; */
+}
+
+.tareas li {
+  /* margin-bottom: 0.8rem;*/
+  line-height: 1.5;
+  margin: 0 0 0.8rem 50px;
+}
+
+#experiencias {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    align-content: stretch;    
+}
+
+.mi-foto {
+    display: flex;
+    flex-direction: row;
+}
+
+.presentacion {
+    display: flex;
+    flex-direction: column;
+    padding: 0 0 0 40px ;
+}
+.presentacion h2 {
+    text-align: left;
 }
